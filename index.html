@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+
+    <link rel="stylesheet" href="assests/css/styles.css">
+    <title>Portifólio</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">Bruno</a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list grid">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">
+                            <i class="uil uil-estate nav_icon"></i> Home 
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">
+                            <i class="uil uil-user nav_icon"></i> Sobre
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class="uil uil-file-alt nav_icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#qualification" class="nav_link">
+                            <i class="uil uil-graduation-cap nav_icon"></i> Qualificações
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#portfolio" class="nav_link">
+                            <i class="uil uil-scenery nav_icon"></i> Portfólio
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#contact" class="nav_link">
+                            <i class="uil uil-message nav_icon"></i> Contato
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav_close" id="nav-close"></i>
+            </div>
+
+            <div class="nav_btns">
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- Main -->
+    <main class="main">
+        <!-- Home -->
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_content grid">
+                    <div class="home_social">
+                        <a href="https://www.linkedin.com/in/brunocastrom/" class="home_social-icon" target="_blank">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        
+                        <a href="https://github.com/BrunoCastroM" class="home_social-icon" target="_blank">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                    </div>
+
+                    <div class="home_img">
+                        <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                <image class="home_blob-img" x="12" y="1" href="assests/img/perfil.png"/>
+                            </g>
+                        </svg> 
+                    </div>
+
+                    <div class="home_data">
+                        <h1 class="home_title">Olá, meu nome é Bruno</h1>
+                        <h3 class="home_subtitle">Desenvolvedor Web</h3>
+                        <p class="home_description">Sou Bruno, desenvolvedor web e estudante de Análise e Desenvolvimento de Sistemas.</p>
+                        <a href="#contact" class="button button--flex">
+                            Entre em contato<i class="uil uil-message button_icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home_scroll">
+                    <a href="#about" class="home_scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+                        <span class="home_scroll-name">Role para baixo</span>
+                        <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about section" id="about">
+            <h2 class="section_title">Sobre mim</h2>
+            <span class="section_subtitle">Minha Apresentação</span>
+
+            <div class="about_container container grid">
+                <img src="assests/img/about.jpg" alt="" class="about_img">
+
+                <div class="about_data">
+                    <p class="about_description">Desenvolvedor Web com habilidades em Javascript, React, NodeJS, HTML, CSS, GIT, dentre outras. Procuro sempre aprimorar meus conhecimentos por meio de projetos desafiadores que me permitem explorar novas tecnologias e tendências. Meu objetivo é aplicar esse conhecimento em cada projeto, oferecendo soluções eficientes e criativas que atendam às necessidades dos usuários.
+                    </p>
+
+                    <div class="about_buttons">
+                        <a download="" href="assests/pdf/CV-bruno-castro-de-moura.pdf" class="button button--flex">
+                            Download CV<i class="uil uil-download-alt button_icon"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Skills -->
+        <section class="skills section" id="skills">
+            <h2 class="section_title">Skills</h2>
+            <span class="section_subtitle"> Minhas skills favoritas</span>
+
+            <div class="skills_container container grid">
+                <div class="skills_content">
+                    <h3 class="skills_title">
+                        <i class="uil uil-brackets-curly"></i> Desenvolvedor Web
+                    </h3>
+
+                    <div class="skills_info">
+
+                        <div class="skills_data">
+                            <div class="skills_blob">
+                                <img src="assests/img/logo-javascript.svg" alt="skill image">
+                            </div>
+                            
+                            <h3 class="skills_name">Javascript</h3>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_blob">
+                                <img src="assests/img/logo-react.svg" alt="skill image">
+                            </div>
+                            
+                            <h3 class="skills_name">React</h3>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_blob">
+                                <img src="assests/img/logo-nodejs.svg" alt="skill image">
+                            </div>
+                            
+                            <h3 class="skills_name">NodeJS</h3>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_blob">
+                                <img src="assests/img/logo-html.svg" alt="skill image">
+                            </div>
+                            
+                            <h3 class="skills_name">HTML</h3>
+                        </div>
+                        
+                        <div class="skills_data">
+                            <div class="skills_blob">
+                                <img src="assests/img/logo-css.svg" alt="skill image">
+                            </div>
+                            
+                            <h3 class="skills_name">CSS</h3>
+                        </div>
+
+
+                        <div class="skills_data">
+                            <div class="skills_blob">
+                                <img src="assests/img/logo-git.svg" alt="skill image">
+                            </div>
+                            
+                            <h3 class="skills_name">Git</h3>
+                        </div>
+                        
+
+                        <div class="skills_data">
+                            <div class="skills_blob">
+                                <img src="assests/img/logo-github.svg" alt="skill image">
+                            </div>
+                            
+                            <h3 class="skills_name">GitHub</h3>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_blob">
+                                <img src="assests/img/logo-mysql.svg" alt="skill image">
+                            </div>
+                            
+                            <h3 class="skills_name">MySQL</h3>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_blob">
+                                <img src="assests/img/logo-google-cloud.svg" alt="skill image">
+                            </div>
+                            
+                            <h3 class="skills_name">Google Cloud</h3>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_blob">
+                                <img src="assests/img/logo-python.svg" alt="skill image">
+                            </div>
+                            
+                            <h3 class="skills_name">Python</h3>
+                        </div>
+                        
+                        <div class="skills_data">
+                            <div class="skills_blob">
+                                <img src="assests/img/logo-django.svg" alt="skill image">
+                            </div>
+                            
+                            <h3 class="skills_name">Django</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Qualification -->
+        <section class="qualification section" id="qualification">
+            
+            <h2 class="section_title">Qualificação</h2>
+            <span class="section_subtitle">Educação e experiência</span>
+
+            <div class="qualification_container container grid">
+
+                <div class="qualification_content">
+                    <h3 class="qualification_title">
+                        <i class="uil uil-book-alt"></i> Cursos
+                    </h3>
+
+                    <div class="qualification_info">
+                        <div>
+                            <h3 class="qualification_name">
+                                Análise e Desenvolvimento de Sistemas
+                            </h3>
+                            <span class="qualification_institute">Estácio</span>
+                            <span class="qualification_year"> <i class="uil uil-calendar-alt"></i> Jul 2022 - Jan 2025</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification_name">
+                                Desenvolvimento Full Stack
+                            </h3>
+                            <span class="qualification_institute">Infinity School</span>
+                            <span class="qualification_year"> <i class="uil uil-calendar-alt"></i> Mar 2022 - Mai 2023</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification_name">
+                                JavaScript e TypeScript do básico ao avançado
+                            </h3>
+                            <span class="qualification_institute">Udemy</span>
+                            <span class="qualification_year"> <i class="uil uil-calendar-alt"></i> Fev 2023 - Presente</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification_name">
+                                HTML5 e CSS3 - Módulos 1 ao 4
+                            </h3>
+                            <span class="qualification_institute">Curso em Video</span>
+                            <span class="qualification_year"> <i class="uil uil-calendar-alt"></i> Nov 2022 - Fev 2023</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification_name">
+                                MySQL
+                            </h3>
+                            <span class="qualification_institute">Curso em Video</span>
+                            <span class="qualification_year"> <i class="uil uil-calendar-alt"></i> Ago 2022</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification_name">
+                                Git e GitHub
+                            </h3>
+                            <span class="qualification_institute">Curso em Video</span>
+                            <span class="qualification_year"> <i class="uil uil-calendar-alt"></i> Jun 2022</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification_name">
+                                Python - Módulos 1 ao 3
+                            </h3>
+                            <span class="qualification_institute">Curso em Video</span>
+                            <span class="qualification_year"> <i class="uil uil-calendar-alt"></i> Fev 2022 - Jun 2022</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Portfolio -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section_title">Portfólio</h2>
+            <span class="section_subtitle">Projetos mais recentes</span>
+
+            <div class="portfolio_container container swiper">
+                <div class="swiper-wrapper">
+                    
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assests/img/print-do-projeto-landing-page.jpg" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Landing Page</h3>
+                            <p class="portfolio_description">Landingpage responsiva com desing monocromático.</p>
+                            <a href="https://brunocastrom.github.io/Landing-Page-Project-with-HTML-and-CSS/" target="_blank" class="button button--flex button--small portfolio_button">
+                                Visitar
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assests/img/print-do-projeto-pokedex.jpg" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Pokédex</h3>
+                            <p class="portfolio_description">Pokédex feita utilizando API do Pokémon </p>
+                            <a href="https://brunocastrom.github.io/Pokedex/" target="_blank" class="button button--flex button--small portfolio_button">
+                                Visitar
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assests/img/print-do-projeto-quizz.jpg" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Quizz</h3>
+                            <p class="portfolio_description">Um quizz feito com 10 perguntas sobre a área de programação.</p>
+                            <a href="https://brunocastrom.github.io/Quizz/" target="_blank" class="button button--flex button--small portfolio_button">
+                                Visitar
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assests/img/print-do-projeto-gerador-de-senhas.jpg" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Gerador de Senhas</h3>
+                            <p class="portfolio_description">Gerador de senhas que cria senhas fortes e personalizadas com diferentes níveis de segurança.</p>
+                            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7064719715767599104/" target="_blank" class="button button--flex button--small portfolio_button">
+                                Visitar
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assests/img/print-do-projeto-tela-de-login-responsiva.jpg" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Tela de Login Responsiva</h3>
+                            <p class="portfolio_description">Layout de uma tela de login responsiva para dispositivos pequenos, médios e grandes. Utilizando os conceitos de mobile first</p>
+                            <a href="https://brunocastrom.github.io/Tela-de-Login-Responsiva/" target="_blank" class="button button--flex button--small portfolio_button">
+                                Visitar
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assests/img/print-do-projeto-formulario.jpg" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Formulário</h3>
+                            <p class="portfolio_description">Formulario com validações feitas no front-end</p>
+                            <a href="https://brunocastrom.github.io/Fomulario/" target="_blank" class="button button--flex button--small portfolio_button">
+                                Visitar
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assests/img/print-do-projeto-calculadora.jpg" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Calculadora</h3>
+                            <p class="portfolio_description">Calculadora com design moderno</p>
+                            <a href="https://brunocastrom.github.io/Calculadora/" target="_blank" class="button button--flex button--small portfolio_button">
+                                Visitar
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assests/img/print-do-projeto-lista.jpg" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Lista</h3>
+                            <p class="portfolio_description">Lista que pode ser usada para lembrar de compras, por exemplo.</p>
+                            <a href="https://brunocastrom.github.io/Lista-Interativa/" target="_blank" class="button button--flex button--small portfolio_button">
+                                Visitar
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assests/img/print-do-projeto-gerador-de-cpf.jpg" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Gerador de CPF</h3>
+                            <p class="portfolio_description">Gerador de CPF válidos.</p>
+                            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7062097675327782912/" target="_blank" class="button button--flex button--small portfolio_button">
+                                Visitar
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assests/img/print-do-projeto-timer.jpg" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Timer</h3>
+                            <p class="portfolio_description">Timer simples com funções de iniciar a contagem, pausar e zerar.</p>
+                            <a href="https://brunocastrom.github.io/Timer/" target="_blank" class="button button--flex button--small portfolio_button">
+                                Visitar
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Added swipers buttons and pagination-->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+
+        <!-- Contact Me -->
+        <section class="contact section" id="contact">
+            <h2 class="section_title">Contato</h2>
+            <span class="section_subtitle">Entre em contato</span>
+            
+            <div class="contact_container container grid">
+                <div>
+                    <div class="contact_information">
+                        <i class="uil uil-linkedin-alt contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Likedin</h3>
+                            <a href="https://www.linkedin.com/in/brunocastrom/" target="_blank"><span class="contact_subtitle">www.linkedin.com/in/brunocastrom</span></a>
+                            
+                        </div>
+                    </div>
+
+                    <div class="contact_information">
+                        <i class="uil uil-envelope contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Email</h3>
+                            <span class="contact_subtitle">brunocastromoura@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact_information">
+                        <i class="uil uil-map-marker contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Local</h3>
+                            <span class="contact_subtitle">Fortaleza-CE</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact_form grid" id="contact-form">
+                    <div class="contact_content">
+                        <label class="contact_label">Nome</label>
+                        <input type="text" name="user_name" required class="contact_input" id="contact-name">
+                    </div>
+
+                    <div class="contact_content">
+                        <label class="contact_label">Email</label>
+                        <input type="email" name="user_email" required class="contact_input" id="contact-email">
+                    </div>
+
+                    <div class="contact_content">
+                        <label class="contact_label">Mensagem</label>
+                        <textarea name="user_project" cols="0" rows="5" class="contact_input" id="contact-project"></textarea>
+                    </div>
+
+                    <p class="contact_message" id="contact-message"></p>
+
+                    <div>
+                        <button type="submit" class="button button--flex">
+                            Enviar menssagem
+                            <i class="uil uil-message button_icon"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer_bg">
+            <div class="footer_container container grid">
+                <div>
+                    <h1 class="footer_title">Bruno</h1>
+                    <span class="footer_subtitle">Desenvolverdor Web</span>
+                </div>
+                
+                <ul class="footer_links">
+                    <li>
+                        <a href="#portfolio" class="footer_link">Portfólio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer_link">Contato</a>
+                    </li>
+                </ul> 
+            </div>
+            
+            <p class="footer_createdby"> Criado por Bruno Castro</p>
+        </div>
+    </footer>
+
+
+    <!-- Scrool Up -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup_icon"></i>
+    </a>
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Email Js -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <script src="assests/js/main.js"></script>
+</body>
+</html>
